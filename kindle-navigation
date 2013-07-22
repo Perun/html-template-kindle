@@ -1,0 +1,24 @@
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+<head>
+    <meta name="dtb:title" content="Name deines E-Books"/>
+  <meta name="dtb:depth" content="1"/>
+	<meta name="dtb:totalPageCount" content="0"/>
+	<meta name="dtb:maxPageNumber" content="0"/>
+</head>
+<docTitle><text>Name deiens E-Books</text></docTitle>
+
+<navMap>
+    <navPoint id="deckblatt" playOrder="1">
+        <navLabel><text>Deckblatt</text></navLabel>
+        <content src="deckblatt.html" />
+    </navPoint>
+    <navPoint id="kapitel-1" playOrder="2">
+        <navLabel><text>Überschrift bzw. kurze beschreibung des Kapitels</text></navLabel>
+        <content src="kapitel-1.html" />
+    </navPoint>
+    <navPoint id="cover-bild" playOrder="3">
+        <navLabel><text>Cover</text></navLabel>
+        <content src="buch-cover.gif" />
+    </navPoint>
+</navMap>
+</ncx>
