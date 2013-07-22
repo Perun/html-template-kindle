@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="uid">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:title>Name deines E-Books</dc:title>
+        <dc:language>de</dc:language>
+        <dc:identifier id="uid">Name deines E-Books</dc:identifier>
+        <dc:creator opf:role="aut">Dein Name</dc:creator>
+        <meta name="cover" content="cover-bild" />
+    </metadata>
+    <manifest>
+        <item id="cover-bild" href="buch-cover.gif" media-type="image/gif" />
+        <item id="deckblatt" href="deckblatt.html" media-type="text/html" />
+        <item id="inhaltsverzeichnis" href="inhaltsverzeichnis.html" media-type="text/html" />
+        <item id="toc" href="inhaltsverzeichnis.ncx" media-type="application/x-dtbncx+xml"/>
+        <item id="kapitel-1" href="kapitel-1.html" media-type="text/html" />
+    </manifest>
+    <spine toc="toc">
+        <itemref idref="cover-bild" linear="no" />
+        <itemref idref="deckblatt" />
+        <itemref idref="inhaltsverzeichnis" />
+        <itemref idref="kapitel-1" />
+    </spine>
+    <guide>
+        <reference type="toc" title="inhaltsverezeichnis" href="inhaltsverzeichnis.html"/>
+        <reference type="cover" title="Cover" href="buch-cover.gif" />
+    </guide>
+</package>
