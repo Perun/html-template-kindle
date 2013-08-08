@@ -19,3 +19,5 @@ Stand der Dinge
 
 - 08. August 2013: Die Deckblatt-Datei hatte keine Endung (deckblatt -> deckblatt.html)
 - 22. Juli 2013: Version 1.0, Projekt auf GitHub gestartet
+
+[Vladimir Simović](https://plus.google.com/116022878971855077582?rel=author) / [perun.net](http://www.perun.net)
