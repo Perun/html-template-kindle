@@ -17,4 +17,5 @@ http://www.perun.net/2011/12/05/amazon-e-books-fuer-kindle-veroeffentlichen/
 Stand der Dinge
 -------
 
+- 08. August 2013: Die Deckblatt-Datei hatte keine Endung (deckblatt -> deckblatt.html)
 - 22. Juli 2013: Version 1.0, Projekt auf GitHub gestartet
