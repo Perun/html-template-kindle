@@ -10,22 +10,18 @@ h4 {font-size: 1.125em; margin: 1.25em 0 0.25em 0;}
 h5 {font-size: 1em; font-weight: bold; margin: 1.25em 0 0.25em 0;}
 h6 {font-size: .875em; font-weight: bold; margin: 1.25em 0 0.25em 0;}
 
-table {margin-top: 0.75em;}
+/* Bei Überschriften den Blocksatz aufheben */
+h1, h2, h3, h4, h5, h6 {text-align: left;}
 
-p {margin: .125em 0 .7em 0; text-indent: 0;}
+table {margin-top: 0.75em;}
+p     {margin: .125em 0 .7em 0; text-indent: 0;}
+
 ul, ol, blockquote, pre, dl, hr {margin-top: .125em; margin-bottom: .5em;}
+
 .inhaltsverzeichnis ul {list-style: none; padding-left: 0; margin-left: 20px;}
 
-/* Automatische Nummerierung von Überschriften */
-body {counter-reset: ebene1; font-size: 100%;}
-h2:before {content: counter(ebene1) ". "; counter-increment: ebene1;}
-h2 {counter-reset: ebene2;}
-h3:before {content: counter(ebene1) "." counter(ebene2) " "; counter-increment: ebene2;}
-h3 {counter-reset: ebene3;}
-
 /* Hinweis-Boxen und Code-Beispiele */
-.hinweis, .quelltext {border: 1px solid #bbb; border-radius: 5px; background: #eee; padding: 1em;}
-code {font-family: consolas, 'courier new', monospace; color: #900;}
-pre {overflow: auto;}
+.hinweis, .quelltext  {border: 1px solid #bbb; border-radius: 5px; background: #eee; padding: 1em;}
+code                  {font-family: consolas, 'courier new', monospace; color: #900;}
 
 .bild {font-style: italic;}
